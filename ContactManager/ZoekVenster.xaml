@@ -1,0 +1,24 @@
+﻿<Window x:Class="ContactManager.ZoekVenster"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContactManager"
+        mc:Ignorable="d"
+        Title="Zoek Persoon" Height="481" Width="747">
+    <Grid>
+        <DataGrid Name="ZoekResultaatOverzicht" Margin="10,10,10,75" AutoGenerateColumns="False" SelectionChanged="OnZoekVensterSelectionChanged">
+            <DataGrid.Columns>
+                <!-- Hier nog met percentuele width werken -->
+                <DataGridTextColumn Header="Naam" Binding="{Binding Naam}" Width="200"></DataGridTextColumn>
+                <DataGridTextColumn Header="Straat" Binding="{Binding Adres.Straat}" Width="200"></DataGridTextColumn>
+                <DataGridTextColumn Header="Locatie" Binding="{Binding Adres.Locatie}" Width="155"></DataGridTextColumn>
+                <DataGridTextColumn Header="Land" Binding="{Binding Adres.Land}" Width="155"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Zoek" HorizontalAlignment="Left" Height="33" Margin="35,394,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox Name="ZoekFilterTextBox" HorizontalAlignment="Left" Height="33" Margin="80,394,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178" TextChanged="OnFilterChanged"/>
+        <Button Content="Ok" HorizontalAlignment="Left" Height="33" Margin="487,394,0,0" VerticalAlignment="Top" Width="100" Click="OnZoekVensterOkClick"/>
+        <Button Content="Annuleer" HorizontalAlignment="Left" Height="33" Margin="612,394,0,0" VerticalAlignment="Top" Width="100" Click="OnZoekVensterCancelClick"/>
+    </Grid>
+</Window>

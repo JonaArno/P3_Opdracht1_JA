@@ -1,0 +1,53 @@
+﻿<Window x:Class="ContactManager.WijzigOrganisatie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContactManager"
+        mc:Ignorable="d"
+        Title="" Height="481" Width="747">
+    <Grid>
+        <Label Name="TeWijzigenOrganisatieNaamLabel" Content="Naam" HorizontalAlignment="Left" Height="25" Margin="35,40,0,0" VerticalAlignment="Top" Width="65"/>
+        <TextBox Name="TeWijzigenOrganisatieNaamTextBox" HorizontalAlignment="Left" Height="25" Margin="105,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340"/>
+        <Label Name="TeWijzigenOrganisatieAdresParentLabel" Content="Adres" HorizontalAlignment="Left" Height="25" Margin="35,90,0,0" VerticalAlignment="Top" Width="50"/>
+
+        <Border BorderBrush="DarkGray" BorderThickness="1" HorizontalAlignment="Left" Height="165" Margin="105,90,0,0" VerticalAlignment="Top" Width="340">
+        </Border>
+
+        <Label Name="TeWijzigenOrganisatieStraatLabel" Content="Straat" HorizontalAlignment="Left" Height="30" Margin="125,115,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox Name="TeWijzigenOrganisatieStraatTextBox" HorizontalAlignment="Left" Height="25" Margin="200,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="225"/>
+
+        <Label Name="TeWijzigenOrganisatieocatieLandLabel" Content="Locatie" HorizontalAlignment="Left" Height="30" Margin="125,145,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox Name="TeWijzigenOrganisatieLocatieTextBox" HorizontalAlignment="Left" Height="25" Margin="200,149,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="225"/>
+
+        <Label Name="TeWijzigenOrganisatieLandLabel" Content="Land" HorizontalAlignment="Left" Height="30" Margin="125,175,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox Name="TeWijzigenOrganisatieLandTextBox" HorizontalAlignment="Left" Height="25" Margin="200,179,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="225"/>
+
+        <Label Content="Contactpersoon" HorizontalAlignment="Left" Height="25" Margin="125,275,0,0" VerticalAlignment="Top" Width="110"/>
+        <CheckBox Name="HeeftContactPersoonCheckBox" Content="" HorizontalAlignment="Left" Height="25" Margin="105,281,0,0" VerticalAlignment="Top" Width="20" RenderTransformOrigin="0.75,-0.84" Click="OnHeeftContactPersoonCheckboxClick"/>
+        <Button Name="SelecteerContactPersoonButton" Content="Selecteer Contactpersoon" Foreground="Blue" HorizontalAlignment="Left" Height="30" Margin="105,330,0,0" VerticalAlignment="Top" Width="145" Background="{x:Null}" BorderBrush="{x:Null}" Click="SelecteerContactPersoonButton_Click"/>
+        <TextBox Name="GeselecteerdeContactTextBox" HorizontalAlignment="Left" Height="30" Margin="275,330,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170"/>
+
+        <ListView Name="TelefoonOverzichtListView" HorizontalAlignment="Left" Height="215" Margin="485,40,0,0" VerticalAlignment="Top" Width="244" SelectionChanged="OnTelefoonOverzichtSelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Type" Width="110" DisplayMemberBinding="{Binding TelefoonType}"/>
+                    <GridViewColumn Header="Telefoonnummer" Width="130" DisplayMemberBinding="{Binding Nummer}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <Label Name="TeWijzigenTelefoonNaamLabel" Content="Type" HorizontalAlignment="Left" Height="25" Margin="485,300,0,0" VerticalAlignment="Top" Width="60"/>
+        <TextBox Name="TeWijzigenTelefoonNaamTextBox" HorizontalAlignment="Left" Height="25" Margin="545,300,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="184"/>
+        <Label Name="TeWijzigenTelefoonNummerLabel" Content="Nummer" HorizontalAlignment="Left" Height="25" Margin="485,325,0,0" VerticalAlignment="Top" Width="60"/>
+        <TextBox Name="TeWijzigenTelefoonNummerTextBox" HorizontalAlignment="Left" Height="25" Margin="545,330,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="184"/>
+
+        <Button Name="VerwijderGeselecteerdeTelefoonButton" Content="Verwijder" HorizontalAlignment="Left" Height="25" Margin="586,260,0,0" VerticalAlignment="Top" Width="69" Click="OnVerwijderGelecteerdeTefoonButtonClick"/>
+        <Button Name="UpdateGewijzigdTelefoonNummerButton" Content="Voeg toe" HorizontalAlignment="Left" Height="25" Margin="660,260,0,0" VerticalAlignment="Top" Width="69" Click="UpdateGewijzigdTelefoonNummerButton_Click"/>
+
+        <Button Name="BewaarWijzigOrganisatieWijzigingenButton"  Content="Ok" HorizontalAlignment="Left" Height="30" Margin="454,410,0,0" VerticalAlignment="Top" Width="135" Click="BewaarWijzigOrganisatieWijzigingenButton_Click"/>
+        <Button Name="AnnuleerWijzigOrganisatieWijzigingenButton" Content="Annuleer" HorizontalAlignment="Left" Height="30" Margin="594,410,0,0" VerticalAlignment="Top" Width="135" Click="AnnuleerWijzigOrganisatieWijzigingenButton_Click"/>
+
+        
+    </Grid>
+</Window>

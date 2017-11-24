@@ -1,0 +1,45 @@
+﻿<Window x:Class="ContactManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContactManager"
+        xmlns:messaging="clr-namespace:System.Runtime.Remoting.Messaging;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="Contact Manager - by Jonathan Arnoys" Height="481" Width="747">
+    <Grid Margin="0,0,-8,0" MaxWidth="747" MaxHeight="481">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="417*"/>
+            <ColumnDefinition Width="251*"/>
+            <ColumnDefinition Width="79*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid Name="DataOverzicht" CanUserAddRows="False" Margin="0,10,160,68" SelectionChanged="OnSelectionChanged" AutoGenerateColumns="False" Grid.ColumnSpan="2">
+            <DataGrid.Columns>
+                <!-- Hier nog met percentuele width werken -->
+                <DataGridTextColumn Header="Naam" Binding="{Binding Naam}" Width="135"></DataGridTextColumn>
+                <DataGridTextColumn Header="Straat" Binding="{Binding Adres.Straat}" Width="130"></DataGridTextColumn>
+                <DataGridTextColumn Header="Locatie" Binding="{Binding Adres.Locatie}" Width="100"></DataGridTextColumn>
+                <DataGridTextColumn Header="Land" Binding="{Binding Adres.Land}" Width="142"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Zoek:" HorizontalAlignment="Left" Height="24" Margin="0,404,0,0" VerticalAlignment="Top" Width="41"/>
+
+        <TextBox Name="ZoekWaardeTextBox" HorizontalAlignment="Left" Height="24" Margin="46,404,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="163" RenderTransformOrigin="0.477,6.098" TextChanged="OnFilterChanged"/>
+
+        <Button x:Name="NieuwContactButton" Content="Nieuw Contact " HorizontalAlignment="Left" Height="24" Margin="365,405,0,0" VerticalAlignment="Top" Width="115" Click="OnNieuwContactClick" Grid.ColumnSpan="2"/>
+        <Button x:Name="WijzigContactButton" Content="Wijzig Contact" HorizontalAlignment="Left" Height="24" Margin="68,405,0,0" VerticalAlignment="Top" Width="115" Click="OnWijzigContactClick" Grid.Column="1"/>
+        <Button x:Name="VerwijderContactButton" Content="Verwijder Contact" HorizontalAlignment="Left" Height="24" Margin="188,405,0,0" VerticalAlignment="Top" Width="115" Click="OnVerwijderContactClick" Grid.ColumnSpan="2" Grid.Column="1"/>
+
+        <TextBox Name="ExtraContactInformatie" IsHitTestVisible="false" HorizontalAlignment="Left" Height="117" Margin="113,132,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Image Name="Afbeelding" HorizontalAlignment="Left" Height="128" Margin="113,254,0,0" VerticalAlignment="Top" Width="190" Grid.ColumnSpan="2" Grid.Column="1"/>
+       
+        <ListView Name="TelefoonOverzichtListView"  Grid.ColumnSpan="2" Grid.Column="1" IsHitTestVisible="false" HorizontalAlignment="Left" Height="117" Margin="113,10,0,0" VerticalAlignment="Top" Width="190">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Naam" Width="80" DisplayMemberBinding="{Binding TelefoonType}"/>
+                    <GridViewColumn Header="Telefoonnummer" Width="110" DisplayMemberBinding="{Binding Nummer}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

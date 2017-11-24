@@ -1,0 +1,40 @@
+C:\Users\Jonathan\Desktop\Programmeren 3\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.AdoConnected.dll
+C:\Users\Jonathan\Desktop\Programmeren 3\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.AdoConnected.pdb
+C:\Users\Jonathan\Desktop\Programmeren 3\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.Business.dll
+C:\Users\Jonathan\Desktop\Programmeren 3\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.Business.pdb
+C:\Users\Jonathan\Desktop\Programmeren 3\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan\Desktop\Programmeren 3\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Desktop\Programmeren 3\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.dll
+C:\Users\Jonathan\Desktop\Programmeren 3\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.pdb
+C:\Users\Administrator\Desktop\Programmeren3\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.AdoConnected.dll
+C:\Users\Administrator\Desktop\Programmeren3\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.AdoConnected.pdb
+C:\Users\Administrator\Desktop\Programmeren3\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.Business.dll
+C:\Users\Administrator\Desktop\Programmeren3\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.Business.pdb
+C:\Users\Administrator\Desktop\Programmeren3\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Programmeren3\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Programmeren3\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.dll
+C:\Users\Administrator\Desktop\Programmeren3\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.pdb
+C:\Users\Jonathan\Desktop\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.AdoConnected.dll
+C:\Users\Jonathan\Desktop\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.AdoConnected.pdb
+C:\Users\Jonathan\Desktop\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.Business.dll
+C:\Users\Jonathan\Desktop\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.Business.pdb
+C:\Users\Jonathan\Desktop\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan\Desktop\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Desktop\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.dll
+C:\Users\Jonathan\Desktop\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.pdb
+C:\Users\Administrator\Desktop\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.AdoConnected.dll
+C:\Users\Administrator\Desktop\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.AdoConnected.pdb
+C:\Users\Administrator\Desktop\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.Business.dll
+C:\Users\Administrator\Desktop\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.Business.pdb
+C:\Users\Administrator\Desktop\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.dll
+C:\Users\Administrator\Desktop\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.pdb
+C:\Users\Jonathan\Desktop\Opdracht 1\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.AdoConnected.dll
+C:\Users\Jonathan\Desktop\Opdracht 1\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.AdoConnected.pdb
+C:\Users\Jonathan\Desktop\Opdracht 1\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.Business.dll
+C:\Users\Jonathan\Desktop\Opdracht 1\Opdracht 1\ContactManager.AdoConnected\bin\Debug\ContactManager.Business.pdb
+C:\Users\Jonathan\Desktop\Opdracht 1\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan\Desktop\Opdracht 1\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Desktop\Opdracht 1\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.dll
+C:\Users\Jonathan\Desktop\Opdracht 1\Opdracht 1\ContactManager.AdoConnected\obj\Debug\ContactManager.AdoConnected.pdb
